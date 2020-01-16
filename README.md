@@ -89,3 +89,36 @@ OR
 
 ### Build for production
 `npm run build`
+
+# Angular
+
+### Install angular
+`npm install -g @angular/cli`
+
+### Update angular project
+```
+npm install -g npm-check-updates
+npm-check-updates -u
+npm install
+```
+
+### Create new Angular project
+`ng new <project-name>`
+
+### Start developer server
+`ng serve [--open]`
+* `--open` opens a browser to http://localhost:4200/
+
+### Add component to project
+`ng generate component <component-name>`
+
+### Add service to project
+`ng generate service <service-name>`
+
+### Add module to project
+`ng generate module <module-name> [--flat] [--module=app]`
+* `--flat` puts the file in src/app instead of its own folder
+* `--module=app` tells the CLI to register it in the imports array of the AppModule
+
+### Add @angular/pwa to existing project
+`ng add @angular/pwa --project <project-name>`
