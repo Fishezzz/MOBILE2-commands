@@ -51,3 +51,23 @@ releases/4.3.1/workbox-sw.js');` into `src/sw.js`
 cd ./project
 npm run build
 ```
+
+# Express webserver
+
+### Create empty project
+`npm init`
+
+### Install Express
+`npm install express --save`
+
+### Start server
+`node index.js`
+
+OR
+
+`npm start`
+* Add `"start": "node index.js"` to package.json
+
+### Install nodemon
+`npm install -g nodemon`
+* Add `"start": "nodemon index.js"` to package.json
