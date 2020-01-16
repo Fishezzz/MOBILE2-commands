@@ -18,3 +18,36 @@
 
 ### Build app
 `cordova build`
+
+# PWA
+
+### Install precache
+`npm install -g sw-precache`
+
+### Configure precache
+`sw-precache --config=sw-precache-config.js`
+
+### Install toolbox
+`npm install --save sw-toolbox`
+
+### Install localforage
+`npm install --save-dev localforage`
+
+### Add workbox
+Add `importScripts('https://storage.googleapis.com/workboxcdn/
+releases/4.3.1/workbox-sw.js');` into `src/sw.js`
+
+### Inject manifest
+`workbox wizard --injectManifest`
+
+### Install http-server
+`npm install http-server -g`
+
+### Run server
+`http-server ./`
+
+### Build web app
+```
+cd ./project
+npm run build
+```
