@@ -71,3 +71,21 @@ OR
 ### Install nodemon
 `npm install -g nodemon`
 * Add `"start": "nodemon index.js"` to package.json
+
+# React
+
+### Install create-react-app
+`npm install [-g] create-react-app`
+* `-g` install global
+
+### Create classic react app
+`create-react-app <app-name>`
+
+### Create TypeScript based react app
+`create-react-app <app-name> --template typescript`
+
+### Start development server
+`npm start`
+
+### Build for production
+`npm run build`
